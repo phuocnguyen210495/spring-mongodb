@@ -33,13 +33,22 @@ Primary Key mặc định trong MongoDB được gọi là _id và đại diện
 
 ## 4. Spring Boot + MongoDB
 
-Tích hợp MongoDB:
+Tích hợp MongoDB trong tập tin pom.xml:
 
 ```
 <dependency>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-data-mongodb</artifactId>
 </dependency>
+```
+
+Tích hợp MongoDB trong tập tin application.properties: 
+
+```
+#mongodb
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=dbexam
 ```
 
 Tạo lớp Employee:
