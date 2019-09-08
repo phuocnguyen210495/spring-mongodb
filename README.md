@@ -1,4 +1,4 @@
-# Spring MongoDB
+# Spring Boot - MongoDB
 
 ## 1. MongoDB là gì?
 
