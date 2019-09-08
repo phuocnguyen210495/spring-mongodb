@@ -33,6 +33,15 @@ Primary Key mặc định trong MongoDB được gọi là _id và đại diện
 
 ## 4. Spring Boot + MongoDB
 
+Tích hợp MongoDB:
+
+```
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-mongodb</artifactId>
+</dependency>
+```
+
 Tạo lớp Employee:
 
 ```
